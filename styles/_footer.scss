@@ -1,0 +1,21 @@
+footer {
+    background-color: $blue;
+    padding: 1.5rem 7rem;
+    display: flex;
+    align-items: center;
+
+    .footer-brand {
+        display: flex;
+        flex-direction: column;
+        @include PreventSelection;
+
+        img {
+            width: 4rem;
+        }
+    }
+
+    .footer-text {
+        margin-left: 2rem;
+        color: white;
+    }
+}

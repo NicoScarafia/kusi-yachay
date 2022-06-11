@@ -1,0 +1,28 @@
+#about {
+    display: flex;
+    background-color: whitesmoke;
+    padding: 0 7rem;
+    padding-top: 4rem;
+
+    .about_left {
+       padding-bottom: 3rem;
+
+       h2 {
+        @include HomeTitle($green);
+        margin-bottom: 2rem;
+       }
+       p {
+        font-size: 1.1rem;
+        line-height: 1.9rem;
+        color: $blue;
+       }
+    }
+    .about_right {
+        display: flex;
+        align-items: flex-end;
+        img {
+            width: 38rem;
+        }
+    }
+
+}

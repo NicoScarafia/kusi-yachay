@@ -1,0 +1,33 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: $blue;
+    padding: 0.3rem 4rem;
+    height: 4rem;
+
+    .brand {
+        display: flex;
+        align-items: center;
+
+        .brand_logo {
+            width: 2rem;
+            height: auto;
+        }
+        .brand_text {
+            width: 9rem;
+            height: auto;
+            margin-left: 0.7rem;
+        }
+    }
+
+    nav {
+        a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1.2rem;
+            text-transform: uppercase;
+            font-size: 0.95rem;
+        }
+    }
+}

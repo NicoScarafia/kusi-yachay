@@ -1,0 +1,36 @@
+#contacto {
+    padding: 4rem 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    h2 {
+        @include HomeTitle($blue);
+        text-align: center;
+        padding-bottom: 3rem;
+    }
+    .contacto-container {
+        display: flex;
+        justify-content: center;
+        padding: 1rem auto;
+        align-items: center;
+
+        .contacto-imagen {
+            img {
+                width: 18rem;
+            }
+        }
+
+        .contacto-info {
+            max-width: 40rem;
+            p {
+                padding: 0.4rem;
+                font-size: 1.1rem;
+                line-height: 2.3rem;
+                text-align: center;
+                color: $blue;
+            }
+        }
+    }
+}

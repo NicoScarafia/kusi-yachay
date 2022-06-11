@@ -1,0 +1,510 @@
+@import url("https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=Lato:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: "BIZ UDPGothic", sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.1rem;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #2691C2;
+  padding: 0.3rem 4rem;
+  height: 4rem;
+}
+
+header .brand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .brand .brand_logo {
+  width: 2rem;
+  height: auto;
+}
+
+header .brand .brand_text {
+  width: 9rem;
+  height: auto;
+  margin-left: 0.7rem;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1.2rem;
+  text-transform: uppercase;
+  font-size: 0.95rem;
+}
+
+#about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: whitesmoke;
+  padding: 0 7rem;
+  padding-top: 4rem;
+}
+
+#about .about_left {
+  padding-bottom: 3rem;
+}
+
+#about .about_left h2 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: #3FB273;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+#about .about_left p {
+  font-size: 1.1rem;
+  line-height: 1.9rem;
+  color: #2691C2;
+}
+
+#about .about_right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+#about .about_right img {
+  width: 38rem;
+}
+
+#que-hacemos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #3FB273;
+  padding: 0 7rem;
+  padding-top: 2.5rem;
+  min-height: 30rem;
+}
+
+#que-hacemos .que-hacemos_left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%;
+  position: relative;
+}
+
+#que-hacemos .que-hacemos_left img {
+  width: 20.5rem;
+  position: absolute;
+  bottom: -4rem;
+}
+
+#que-hacemos .que-hacemos_right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 30rem;
+  padding-bottom: 2rem;
+  text-align: right;
+}
+
+#que-hacemos .que-hacemos_right h2 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+#que-hacemos .que-hacemos_right p {
+  font-size: 1.1rem;
+  line-height: 1.9rem;
+  color: white;
+}
+
+#videos {
+  padding: 4rem 2rem;
+  position: relative;
+}
+
+#videos h2 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: #2691C2;
+  font-weight: bold;
+  margin: 1rem auto 2rem auto;
+  text-align: center;
+}
+
+#videos .background-image-left, #videos .background-image-right {
+  width: 20rem;
+  position: absolute;
+  z-index: -1;
+  top: 5rem;
+}
+
+#videos .background-image-left {
+  left: 10rem;
+}
+
+#videos .background-image-right {
+  right: 10rem;
+}
+
+#videos .videos-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#videos .videos-container .video {
+  margin: 1rem;
+}
+
+#videos .custom-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 2rem 0;
+}
+
+#videos .custom-link a {
+  background-color: #3FB273;
+  color: white;
+  padding: 0.6rem 1.3rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+#videos .custom-link a:hover {
+  background-color: #2691C2;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+#redes {
+  margin-top: -6.5rem;
+  background-color: #2691C2;
+  padding-top: 6rem;
+  -webkit-clip-path: polygon(0 0, 100% 11%, 100% 100%, 0% 100%);
+          clip-path: polygon(0 0, 100% 11%, 100% 100%, 0% 100%);
+  position: relative;
+}
+
+#redes h2 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  padding-left: 6rem;
+}
+
+#redes h4 {
+  margin: 3rem 0;
+  font-family: "BIZ UDPGothic", sans-serif;
+  color: rgba(255, 255, 255, 0.698);
+  font-size: 1.2rem;
+  letter-spacing: -0.05rem;
+}
+
+#redes h4 span {
+  font-size: 1.6rem;
+  color: white;
+}
+
+#redes .instagram {
+  padding: 0rem 6rem;
+  padding-bottom: 3rem;
+}
+
+#redes .instagram .instagram-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#redes .instagram .instagram-container .instagram-publicaciones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#redes .instagram .instagram-container .instagram-publicaciones .instagram-publicacion {
+  width: 13.5rem;
+  height: 13.5rem;
+  margin: 0 1.2rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.279) 0px 48px 100px 0px;
+          box-shadow: rgba(0, 0, 0, 0.279) 0px 48px 100px 0px;
+}
+
+#redes .instagram .instagram-container .instagram-publicaciones .instagram-publicacion img {
+  width: 13.5rem;
+  height: 13.5rem;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+#redes .instagram .instagram-container .custom-link {
+  margin: 0 3rem;
+}
+
+#redes .instagram .instagram-container .custom-link a {
+  background-color: #3FB273;
+  color: white;
+  padding: 0.6rem 1.3rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+#redes .instagram .instagram-container .custom-link a:hover {
+  background-color: #ebecee;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+#redes .instagram .instagram-container .custom-link a:hover {
+  color: #313131;
+}
+
+#redes .placeholder-redes {
+  position: absolute;
+  top: 32rem;
+  left: 5.5rem;
+  z-index: 1000;
+}
+
+#redes .placeholder-redes img {
+  width: 16rem;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#redes .facebook {
+  padding: 3rem 6rem;
+  background-color: #3FB273;
+  -webkit-clip-path: polygon(0 18%, 100% 0, 100% 100%, 0% 100%);
+          clip-path: polygon(0 18%, 100% 0, 100% 100%, 0% 100%);
+}
+
+#redes .facebook h4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  text-align: right;
+}
+
+#redes .facebook h4 span {
+  margin-left: 0.2rem;
+}
+
+#redes .facebook .facebook-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-bottom: 3rem;
+}
+
+#redes .facebook .facebook-container .facebook-publicaciones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#redes .facebook .facebook-container .facebook-publicaciones .facebook-publicacion {
+  width: 13.5rem;
+  height: 13.5rem;
+  margin: 0 1.2rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.279) 0px 48px 100px 0px;
+          box-shadow: rgba(0, 0, 0, 0.279) 0px 48px 100px 0px;
+}
+
+#redes .facebook .facebook-container .facebook-publicaciones .facebook-publicacion img {
+  width: 13.5rem;
+  height: 13.5rem;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+#redes .facebook .facebook-container .custom-link {
+  margin: 0 3rem;
+}
+
+#redes .facebook .facebook-container .custom-link a {
+  background-color: #2691C2;
+  color: white;
+  padding: 0.6rem 1.3rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+#redes .facebook .facebook-container .custom-link a:hover {
+  background-color: #ebecee;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+#redes .facebook .facebook-container .custom-link a:hover {
+  color: #313131;
+}
+
+#contacto {
+  padding: 4rem 6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#contacto h2 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: #2691C2;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+#contacto .contacto-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1rem auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#contacto .contacto-container .contacto-imagen img {
+  width: 18rem;
+}
+
+#contacto .contacto-container .contacto-info {
+  max-width: 40rem;
+}
+
+#contacto .contacto-container .contacto-info p {
+  padding: 0.4rem;
+  font-size: 1.1rem;
+  line-height: 2.3rem;
+  text-align: center;
+  color: #2691C2;
+}
+
+footer {
+  background-color: #2691C2;
+  padding: 1.5rem 7rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .footer-brand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+footer .footer-brand img {
+  width: 4rem;
+}
+
+footer .footer-text {
+  margin-left: 2rem;
+  color: white;
+}
+/*# sourceMappingURL=styles.css.map */

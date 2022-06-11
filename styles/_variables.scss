@@ -1,0 +1,39 @@
+// Colores
+$green: #3FB273;
+$blue: #2691C2;
+
+// Fuentes
+$accent-font: 'BIZ UDPGothic', sans-serif;
+$main-font: 'Lato', sans-serif;
+
+// Mixins
+
+@mixin HomeTitle($color: white) {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: $color;
+    font-weight: bold;
+}
+
+@mixin CustomLink($bg: $green, $hover-bg: $blue) {
+    background-color: $bg;
+    color: white;
+    padding: 0.6rem 1.3rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    transition: 0.2s all;
+
+    &:hover {
+        background-color: $hover-bg;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    }
+}
+
+@mixin PreventSelection {
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none;
+    -khtml-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+}

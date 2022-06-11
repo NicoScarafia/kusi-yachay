@@ -1,0 +1,44 @@
+#videos {
+    padding: 4rem 2rem;
+    position: relative;
+
+    h2 {
+        @include HomeTitle($blue);
+        margin: 1rem auto 2rem auto;
+        text-align: center;
+    }
+
+    .background-image-left, .background-image-right {
+        width: 20rem;
+        position: absolute;
+        z-index: -1;
+        top: 5rem;
+    }
+    .background-image-left {
+        left: 10rem;
+    }
+    .background-image-right {
+        right: 10rem;
+    }
+
+    .videos-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .video {
+            margin: 1rem;
+        }
+    }
+
+    .custom-link {
+       display: flex;
+       justify-content: center;
+       margin: 2rem 0;
+
+        a {
+            @include CustomLink;
+        }
+    }
+
+}

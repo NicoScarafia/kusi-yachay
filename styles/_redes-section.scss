@@ -1,0 +1,122 @@
+#redes {
+    margin-top: -6.5rem;
+    background-color: $blue;
+    padding-top: 6rem;
+    clip-path: polygon(0 0, 100% 11%, 100% 100%, 0% 100%);
+
+    position: relative;
+
+    h2 {
+        @include HomeTitle;
+        padding-left: 6rem;
+    }
+
+    h4 {
+        margin: 3rem 0;
+        font-family: $accent-font;
+        color: rgba(255, 255, 255, 0.698);
+        font-size: 1.2rem;
+        letter-spacing: -0.05rem;
+
+        span {
+            font-size: 1.6rem;
+            color: white;
+        }
+    }
+
+    
+
+    .instagram {
+        padding: 0rem 6rem;
+        padding-bottom: 3rem;
+
+        .instagram-container {
+            display: flex;
+            align-items: center;
+    
+            .instagram-publicaciones {
+                display: flex;
+            
+                .instagram-publicacion {
+                    width: 13.5rem;   height: 13.5rem;
+                    margin: 0 1.2rem;
+                    box-shadow: rgba(0, 0, 0, 0.279) 0px 48px 100px 0px;
+                    img {
+                        width: 13.5rem;   height: 13.5rem;
+                        object-fit: contain;
+                    }
+                }
+            }
+    
+            .custom-link {
+                margin: 0 3rem;
+                a {
+                    @include CustomLink($green, #ebecee);
+    
+                &:hover {
+                    color: rgb(49, 49, 49)
+                }
+                }
+            }
+        }
+    }
+
+    .placeholder-redes {
+        position: absolute;
+        top: 32rem; left: 5.5rem;
+        z-index: 1000;
+        img {
+            width: 16rem;
+            @include PreventSelection;
+        }
+    }
+
+    .facebook {
+        padding: 3rem 6rem;
+        background-color: $green;
+        clip-path: polygon(0 18%, 100% 0, 100% 100%, 0% 100%);
+
+        h4 {
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+            text-align: right;
+
+            span {
+                margin-left: 0.2rem;
+            }
+        }
+
+        .facebook-container {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding-bottom: 3rem;
+            
+            .facebook-publicaciones {
+                display: flex;
+            
+                .facebook-publicacion {
+                    width: 13.5rem;   height: 13.5rem;
+                    margin: 0 1.2rem;
+                    box-shadow: rgba(0, 0, 0, 0.279) 0px 48px 100px 0px;
+                    img {
+                        width: 13.5rem;   height: 13.5rem;
+                        object-fit: contain;
+                    }
+                }
+            }
+    
+            .custom-link {
+                margin: 0 3rem;
+                a {
+                    @include CustomLink($blue, #ebecee);
+    
+                &:hover {
+                    color: rgb(49, 49, 49)
+                }
+                }
+            }
+        }
+    }
+}

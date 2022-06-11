@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=Lato:wght@300;400;700&display=swap');
+
+@import './_variables.scss';
+
+* {
+    margin: 0;  padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $main-font;
+}
+
+h1, h2, h3 {
+    font-family: $accent-font;
+    font-weight: 600;
+    letter-spacing: -0.1rem;
+}
+
+@import './_header.scss';
+@import './_about-section.scss';
+@import './_que-hacemos-section.scss';
+@import './_videos-section.scss';
+@import './_redes-section.scss';
+@import './_contacto.scss';
+@import './_footer.scss';
